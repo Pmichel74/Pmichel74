@@ -6,30 +6,42 @@
 ## 👨‍💻 À propos de moi
 
 - 🎓 Étudiant à **Holberton School**
-- 🏢 En spécialisation Cybersécurité
-- 📍 Basé à Thonon-les-bains, France
+- 🔄 Spécialisation envisagée : Cybersécurité
+- 📍 Thonon-les-bains, France
 - 📧 patrick.michel@holbertonstudents.com
-- 📱 06.63.76.14.27
 
 ## 🚀 Projet Phare : CardioBot
 
-### Description
-CardioBot est un assistant virtuel innovant pour la cardiologie, développé en collaboration avec deux autres étudiants d'Holberton School pour le cabinet du Dr. TZVETKOV.
+### Vue d'ensemble
+Assistant virtuel innovant pour la gestion administrative et médicale d'un cabinet de cardiologie, développé en équipe par 2 étudiants. Le projet vise à terme à proposer une solution complète et indépendante, alternative aux plateformes existantes comme Doctolib.
 
-### Mon Rôle
-Responsable de la **Cybersécurité** du projet :
-- 🔒 Sécurisation des données médicales
-- 📊 Conformité RGPD
-- 🔐 Implémentation de FranceConnect+
-- 🛡️ Système de double authentification
+### Mes Domaines d'Expertise sur le Projet
 
-### Technologies Utilisées
+#### 1. Intelligence Artificielle
+- 🤖 Intégration IBM Watsonx
+- 🧠 Développement des algorithmes IA
+- 📊 Analyse et traitement des données médicales
+
+#### 2. Cybersécurité
+- 🔒 Implémentation FranceConnect+ et Double Auth
+- 🛡️ Sécurisation des données médicales
+- 📋 Conformité RGPD et HDS
+
+### Architecture Technique
 ```bash
-# Backend
-Django        ████████░░
-PostgreSQL    ███████░░░
-Celery       ██████░░░░
+Frontend
+├── React.js
+└── PWA (Progressive Web App)
 
-# Sécurité
-FranceConnect+ ██████████
-RGPD          ████████░░
+Backend
+├── Django REST
+├── PostgreSQL
+└── Redis (Cache)
+
+IA/ML
+└── IBM Watsonx
+
+Sécurité
+├── FranceConnect+
+├── Double Auth
+└── Chiffrement E2E
